@@ -10,7 +10,7 @@ function Hero (){
           to help you document and understand your health.
         </HeroP>
         <HeroBtnWrapper>
-          <EmailLink href="images/Connor_Kendall_Resume.pdf" download="Connor_Kendall_Resume.pdf">
+          <EmailLink>
             Sign Up
           </EmailLink>
         </HeroBtnWrapper>
