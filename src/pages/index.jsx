@@ -19,10 +19,6 @@ const Home = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle}/>
       <Hero />
-      <About />
-      <Experience />
-      <Projects />
-      <Footer />
     </>
   )
 }

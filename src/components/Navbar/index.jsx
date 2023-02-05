@@ -33,32 +33,15 @@ const Navbar = ({ toggle }) => {
 
   return (
     <>
-    <IconContext.Provider value={{ color: '#fff'}}>
+    <IconContext.Provider value={{ color: '#000'}}>
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
-          <NavLogo to='/' onClick={toggleHome}>Home</NavLogo>
+          <NavLogo to='/' onClick={toggleHome}>Jiminy</NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
-          <NavMenu>
-            <NavItem>
-              <NavLinks to='about'
-              smooth={true} duration={500} spy={true} exact='true' offset={-80}
-              >About Me</NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks to='experience'
-              smooth={true} duration={500} spy={true} exact='true' offset={-80}
-              >Experience</NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks to='projects'
-              smooth={true} duration={500} spy={true} exact='true' offset={-80}
-              >Projects</NavLinks>
-            </NavItem>
-          </NavMenu>
           <NavBtn>
-            <NavBtnLink href='mailto:connor101kendall@gmail.com?subject=Website Contact'>Email Me</NavBtnLink>
+            <NavBtnLink>Sign Up</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>

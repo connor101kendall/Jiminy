@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 export const HeroContainer = styled.div`
-  background: #0c0c0c;
+  background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,7 +13,7 @@ export const HeroContainer = styled.div`
 `
 export const EmailLink = styled.a`
   border-radius: 50px;
-  background: #902bf5;
+  background: #01bf71;
   white-space: nowrap;
   padding: 10px 22px;
   font-size: 16px;
@@ -26,8 +26,8 @@ export const EmailLink = styled.a`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #fff;
-    color: #010606;
+    background: #000;
+    color: #fff;
   }
 `
 export const HeroBg = styled.div`
@@ -51,7 +51,7 @@ export const HeroContent = styled.div`
   align-items: center;
 `
 export const HeroH1 = styled.h1`
-  color: #fff;
+  color: #000;
   font-size: 48px;
   text-align: center;
 
@@ -65,7 +65,7 @@ export const HeroH1 = styled.h1`
 
 export const HeroP = styled.p`
   margin-top: 24px;
-  color: #fff;
+  color: #000;
   font-size: 24px;
   text-align: center;
   max-width: 600px;

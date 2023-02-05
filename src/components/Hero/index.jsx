@@ -5,13 +5,13 @@ function Hero (){
   return (
     <HeroContainer id='home'>
       <HeroContent>
-        <HeroH1> Hey, I'm Connor Kendall</HeroH1>
-        <HeroP>This site is my online portfolio created to showcase my skills. 
-          Have a look around and don't hesitate to send me an email to discuss any 
-          opportunities!</HeroP>
+        <HeroH1>Hi! I'm Jiminy</HeroH1>
+        <HeroP>I am a digital health care assistant designed
+          to help you document and understand your health.
+        </HeroP>
         <HeroBtnWrapper>
           <EmailLink href="images/Connor_Kendall_Resume.pdf" download="Connor_Kendall_Resume.pdf">
-            Download My Resume
+            Sign Up
           </EmailLink>
         </HeroBtnWrapper>
       </HeroContent>
