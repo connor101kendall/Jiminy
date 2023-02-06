@@ -41,7 +41,7 @@ const Navbar = ({ toggle }) => {
             <FaBars />
           </MobileIcon>
           <NavBtn>
-            <NavBtnLink>Sign Up</NavBtnLink>
+            <NavBtnLink to='/signin'>Sign In</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>

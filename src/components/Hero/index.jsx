@@ -1,5 +1,6 @@
 import React from 'react'
 import { HeroContainer, HeroContent, HeroH1, HeroP, HeroBtnWrapper, EmailLink } from './HeroElements'
+import { Button } from '../ButtonElements'
 
 function Hero (){
   return (
@@ -10,9 +11,9 @@ function Hero (){
           to help you document and understand your health.
         </HeroP>
         <HeroBtnWrapper>
-          <EmailLink>
-            Sign Up
-          </EmailLink>
+          <Button to='/signin'>
+            Sign In
+          </Button>
         </HeroBtnWrapper>
       </HeroContent>
     </HeroContainer>

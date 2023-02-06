@@ -6,7 +6,7 @@ const SignIn = () => {
     <>
       <Container>
         <FormWrap>
-          <Icon to='/'>dolla</Icon>
+          <Icon to='/'>Jiminy</Icon>
           <FormContent>
             <Form action='#'>
               <FormH1>Sign in to your account</FormH1>
@@ -15,7 +15,6 @@ const SignIn = () => {
               <FormLabel htmlFor='for'>Password</FormLabel>
                 <FormInput htmlFor='password' required />
               <FormButton type='submit'>Continue</FormButton>
-              <Text>Forgot password</Text>
             </Form>
           </FormContent>
         </FormWrap>
