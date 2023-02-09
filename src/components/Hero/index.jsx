@@ -11,8 +11,8 @@ function Hero (){
           to help you document and understand your health.
         </HeroP>
         <HeroBtnWrapper>
-          <Button to='/signin'>
-            Sign In
+          <Button to='/signup'>
+            Sign Up!
           </Button>
         </HeroBtnWrapper>
       </HeroContent>

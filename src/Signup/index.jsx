@@ -3,17 +3,15 @@ import {
   Container, 
   FormWrap, 
   Icon, 
-  FormContent, 
-  Form, 
+  FormContent, Form, 
   FormInput, 
   FormH1, 
   FormLabel, 
   FormButton, 
   RButton, 
-} from './SigninElements'
+} from './SignupElements'
 
-
-const SignIn = () => {
+const SignUp = () => {
   return (
     <>
       <Container>
@@ -21,23 +19,24 @@ const SignIn = () => {
           <Icon to='/'>Jiminy</Icon>
           <FormContent>
             <Form action='#'>
-              <FormH1>Sign in to your account</FormH1>
+              <FormH1>Register an Account!</FormH1>
+              <FormLabel htmlFor='for'>First Name</FormLabel>
+                <FormInput htmlFor='firstname' required />
+                <FormLabel htmlFor='for'>Last Name</FormLabel>
+                <FormInput htmlFor='lastname' required />
               <FormLabel htmlFor='for'>Email</FormLabel>
                 <FormInput htmlFor='email' required />
               <FormLabel htmlFor='for'>Password</FormLabel>
                 <FormInput htmlFor='password' required />
               <FormButton type='submit'>Continue</FormButton>
               <br /><br />
-              <FormLabel>Don't Have an Account?<RButton to='/signup'>Register Here!</RButton></FormLabel>
+              <FormLabel>Already Have an Account?<RButton to='/signin'>Sign In</RButton></FormLabel>
             </Form>
-            
           </FormContent>
         </FormWrap>
-        
-        
       </Container>
     </>
   )
 }
 
-export default SignIn
+export default SignUp

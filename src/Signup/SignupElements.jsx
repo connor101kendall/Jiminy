@@ -103,6 +103,7 @@ export const RButton = styled(Link)`
   text-align: center;
   text-decoration: none;
 `
+
 export const Text = styled.span`
 text-align: center;
 margin-top: 24px;
