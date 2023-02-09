@@ -5,7 +5,6 @@ import SignIn from '../Signin'
 const SigninPage = () => {
   return (
     <>
-    <ScrollToTop />
       <SignIn />
     </>
   )

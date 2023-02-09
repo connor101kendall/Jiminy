@@ -5,7 +5,6 @@ import SignUp from '../Signup'
 const SignupPage = () => {
   return (
     <>
-    <ScrollToTop />
       <SignUp />
     </>
   )
