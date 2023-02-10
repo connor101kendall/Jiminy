@@ -2,12 +2,8 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
-  min-height: 692px;
-  background: linear-gradient(
-    108deg,
-    rgba( 1, 147, 86, 1) 0%,
-    rgba( 10, 201, 122, 1) 100%
-  );
+  background: rgba( 10, 201, 122, 1);
+  height: 60rem;
 `
 export const FormWrap = styled.div`
   height: 100%;
