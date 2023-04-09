@@ -12,6 +12,8 @@ import {
   NavBtn, 
   NavBtnLink } from './NavbarElements'
 import { animateScroll as scroll } from 'react-scroll';
+import LoginButton from '../LoginButton/LoginButton';
+import LogoutButton from '../LogoutButton/LogoutButton';
 
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false)
@@ -41,7 +43,8 @@ const Navbar = ({ toggle }) => {
             <FaBars />
           </MobileIcon>
           <NavBtn>
-            <NavBtnLink to='/signin'>Sign In</NavBtnLink>
+            <LoginButton />
+            <LogoutButton />
           </NavBtn>
         </NavbarContainer>
       </Nav>
