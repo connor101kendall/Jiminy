@@ -87,7 +87,7 @@ export const NavBtn = styled.nav`
     display: none;
   }
 `
-export const NavBtnLink = styled(LinkR)`
+export const LogInButton = styled.button`
   border-radius: 50px;
   background: #01bf71;
   white-space: nowrap;
@@ -100,6 +100,25 @@ export const NavBtnLink = styled(LinkR)`
   transition: all 0.2s ease-in-out;
   text-decoration: none;
 
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    background: #000;
+    color: #fff;
+  }
+`
+export const LogOutButton = styled.button`
+  border-radius: 50px;
+  background: #bf010a;
+  white-space: nowrap;
+  padding: 10px;
+  color: #010606;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  margin: 10px;
   &:hover {
     transition: all 0.2s ease-in-out;
     background: #000;
